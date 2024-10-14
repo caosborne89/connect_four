@@ -1,0 +1,49 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15em;
+}
+#inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#board {
+    background-color: blue;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+#first-row {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.first-row-board-space {
+    background-color: lightgray;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 1em;
+    opacity: 35%;
+}
+
+.first-row-board-space:hover {
+    background-color: red;
+    opacity: 100%;
+}
+
+.board-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.board-space {
+    background-color: white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 1em;
+}
