@@ -31,6 +31,15 @@
 }
 
 .first-row-board-space:hover {
+    opacity: 100%;
+}
+
+.first-row-board-space:hover.black-turn {
+    background-color: black;
+    opacity: 100%;
+}
+
+.first-row-board-space:hover.red-turn {
     background-color: red;
     opacity: 100%;
 }

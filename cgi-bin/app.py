@@ -8,7 +8,7 @@ row_placement =  get_params["row"].value
 next_user = "black" if curr_user_turn == "red" else "red" 
 
 response_data = {
-    "next_user": next_user
+    "nextUser": next_user
 }
 
 json_str = json.dumps(response_data)
